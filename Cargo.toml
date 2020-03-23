@@ -1,0 +1,15 @@
+[package]
+name = "hack-assembler"
+version = "0.1.0"
+authors = ["Kevin Li <kevinli020508@gmail.com>"]
+edition = "2018"
+description = "An assembler for the Hack assembly language"
+license = "MIT"
+keywords = ["assembler", "assembly", "hack"]
+repository = "https://github.com/AlienKevin/hack-assembler"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+im = "14.3.0"
